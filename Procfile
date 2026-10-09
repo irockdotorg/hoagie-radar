@@ -1,1 +1,1 @@
-web: gunicorn main:app --bind 0.0.0.0:5117 --workers 2 --timeout 120
+web: python -m gunicorn main:app --bind 0.0.0.0:5117 --workers 2 --timeout 120
